@@ -1,0 +1,63 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "node-sass": "^4.12.0",
+    "npm": "^6.9.0",
+    "eslint": "^6.6.0",
+    "react": "^16.8.6",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^3.4.1",
+    "reactstrap": "^6.5.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "last 2 ios versions",
+    "not dead",
+    "not ie < 11",
+    "not op_mini all"
+  ],
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/**/*.js",
+    "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "plugin:prettier/recommended"
+    ]
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "htmlWhitespaceSensitivity": "css",
+    "insertPragma": false,
+    "jsxBracketSameLine": false,
+    "jsxSingleQuote": false,
+    "printWidth": 80,
+    "proseWrap": "preserve",
+    "quoteProps": "as-needed",
+    "requirePragma": false,
+    "semi": true,
+    "singleQuote": false,
+    "tabWidth": 2,
+    "trailingComma": "es5",
+    "useTabs": false
+  },
+  "proxy": "http://localhost:3001",
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.0",
+    "prettier": "^2.0.5"
+  }
+}

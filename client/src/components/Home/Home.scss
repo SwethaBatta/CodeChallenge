@@ -1,0 +1,41 @@
+.home {
+	width: 100%;
+	&-header {
+		background-color: #FFF;
+		display: block;
+	}
+	ul.home-nav li {
+		display: block;
+	    list-style-type: none;
+	    float: left;
+	    margin: 0;
+
+	    a {
+	    	color: #000;
+		    text-decoration: none;
+		    padding: 20px 122px 10px 32px;
+		    display: inline-block;
+		    padding-bottom: 10px;
+	    	border-bottom: solid 3px #dcdcdc;
+
+	    }
+        
+	    a:hover, a.selected {
+    		border-bottom: solid 3px #0062ff;
+    		font-weight: bold;
+    	}
+	}
+
+    
+    @media only screen and (max-width: 735px) {
+        .home ul.home-nav li {
+            float: none;
+        }
+    }  
+    
+    @media only screen and (max-width: 735px) {
+        .home ul.home-nav li {
+            float: none;
+        }
+    }   
+}

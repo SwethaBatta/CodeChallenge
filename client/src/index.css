@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #fff;
+}
+
+h1,
+h2 {
+  font-family: sans-serif;
+}
+
+.App ul,
+li,
+p,
+h3,
+button {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.App ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+
+.App ul.header {
+  background-color: #005ce6;
+  height: 63px;
+  padding: 0px;
+  width: 100%;
+}
+
+.App ul.header li a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px 134px;
+  display: inline-block;
+}
