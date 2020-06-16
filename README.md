@@ -1,6 +1,7 @@
 ## Features implemented for FE exercise using MERN stack
 
-**Frontend**
+#### Frontend
+
 Implemented two tabs with active highlight for the selected tab
 1) Submission Form 
 2) Company Details (with routing /companyDetails)
@@ -25,10 +26,10 @@ Related files - SubmissionForm.js, SubmissionForm.scss
 - Displayed Company details (Company name, Company cost, Number of employees) in the form of a table in Company Details tab.
   Used the API /companyData to fetch the details
 
-**Backend**
+#### Backend
 - Used the route /form to get the submission form details and save them to MongoDB
   - Sample record:
-  {"_id":"5ee3a7977a55f6e832ad60fc","firstName":"Swetha","lastName":"Batta","email":"swetha.batta16@gmail.com","address":"xxx","company":"1991","salary":100000,"timestamp":"2020-06-12T16:04:39.288Z","__v":0}
+  {"_id":"5ee3a7977a55f6e832ad60fc","firstName":"Swetha","lastName":"Batta","email":"abc@xyz.com","address":"xxx","company":"1991","salary":100000,"timestamp":"2020-06-12T16:04:39.288Z","__v":0}
 - Implemented duplicate email ID check to throw an error incase of duplicate submissions
 
 - Computed company details at the backend by aggregating salary parameter for cost and email ID for employee count and sorted 
